@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  height: 13vh;
+  background-color: #555;
+  color: #fff;
+  font-size: 0.8em;
+}
+.footer-copyright {
+  text-align: center;
+  line-height: 1.5;
+}
+.footer-media__link {
+  display: inline-block;
+}
+.footer-media__link:hover {
+  background-color: rgba(111, 111, 111, .5);
+  transition: 0.5s;
+}

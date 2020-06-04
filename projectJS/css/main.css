@@ -1,0 +1,108 @@
+/*main*/
+.main,
+.main-socks,
+.main-it-works,
+.main-granny,
+.main-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1004px;
+}
+.main h2 {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: black;
+  text-transform: uppercase;
+  margin: 40px 0 20px;
+}
+.main-socks-img,
+.main-socks-info,
+.main-granny-img,
+.main-it-works img {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 940px;
+}
+.main-socks-img__block,
+.main-socks-info__block,
+.main-granny-img__block {
+  width: 32%;
+  max-width: 300px;
+}
+/*наши носки текстовый блок*/
+.main-socks-info {
+  position: relative;
+}
+.main-socks-info__block {
+  border-radius: 5px;
+  background-color: rgba(189, 186, 177, 0.3);
+}
+.main-socks-info__block h3 {
+  padding: 10px;
+  font-size: 0.8em;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+}
+.main-socks-info__block p {
+  padding: 10px;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 1.5;
+  color: black;
+}
+/*наши бабушки*/
+.main-granny-img__block {
+  position: relative;
+}
+.main-granny-img__block img {
+  width: 100%;
+}
+.main-granny-img__block figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(189, 186, 177, 0.4);
+  font-size: 0.8em;
+  color: #fff;
+  text-align: center;
+  padding: 10px 5px;
+}
+.main-granny-img__block figcaption:hover {
+  background-color: rgba(189, 186, 177, 0.2);
+}
+/*о нас пишут*/
+.main-media__block {
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-media__block a img {
+  width: 100%;
+  max-width: 100px;  
+  filter: grayscale(0.7);
+}
+.main-media__block a:hover img {
+  filter: grayscale(0);
+}
+#podskazka {
+  position:absolute;
+  top: 0;
+  left: 0;
+  padding: 3px;
+  font-size: 0.8em;
+  color: #fff;
+  background-color: rgb(189, 186, 177);
+  width: 150px;
+  display: none;
+}

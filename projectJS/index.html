@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="social project">
+    <meta name="keywords" content="granny socks knitting">
+    <title>Носочки от бабушки</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif+Caption&display=swap" rel="stylesheet">
+    <!--Подключаем jQuery-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!--Подключаем слайдер slick-->
+    <script src="plugin/slick.min.js"></script>
+    <!--Подключаем скрипт-->
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header-overlay">
+            <div class="header-slider">
+                <div class="slider__item">
+                    <img src="img/slides/noski1.jpg" alt="noski">
+                </div>
+                <div class="slider__item">
+                    <img src="img/slides/noski2.jpg" alt="noski">
+                </div>
+                <div class="slider__item">
+                    <img src="img/slides/noski3.jpg" alt="noski">
+                </div>
+                <div class="slider__item">
+                    <img src="img/slides/noski4.jpg" alt="noski">
+                </div>
+                <div class="slider__item">
+                    <img src="img/slides/noski5.jpg" alt="noski">
+                </div>
+            </div>
+            <header class="header">
+                <div class="container">
+                    <div class="header_top">
+                        <a class="header-logo" href="#">
+                            <img class="header-logo__img" src="img/logo.png" alt="logo">
+                        </a>
+                        <div class="header-burger">
+                            <span></span>
+                        </div>
+                        <nav class="header-nav">
+                            <ul class="header-nav__list">
+                                <li class="header-nav__item"><a href="#" class="header-nav__link">Главная</a></li>
+                                <li class="header-nav__item"><a href="#" class="header-nav__link">Носки</a></li>
+                                <li class="header-nav__item"><a href="#" class="header-nav__link">Как это работает</a>
+                                </li>
+                                <li class="header-nav__item"><a href="#" class="header-nav__link">Бабушки</a></li>
+                                <li class="header-nav__item"><a href="#" class="header-nav__link">Контакты</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header-aside">
+                            <div class="header-media">
+                                <a href="#" class="header-media__link"><img src="img/fb.png" alt="fb"></a>
+                                <a href="#" class="header-media__link"><img src="img/vk.png" alt="vk"></a>
+                                <a href="#" class="header-media__link"><img src="img/ins.png" alt="ins"></a>
+                            </div>
+                            <div class="header-lang">
+                                <a class="lang-switcher__link" href="url">ru</a>
+                                <a class="lang-switcher__link" href="url">en</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_middle">
+                    <form class="header-form form" name="header-form" action="file.php">
+                        <div class="form__item">
+                            <input type="email" name="email" id="email" placeholder="Ваш e-mail:" required
+                                title="Почтовый адрес формата info@tut.by">
+                        </div>
+                        <div class="form__item">
+                            <select name="socks" id="socks">
+                                <option value="null">Выбрать носки:</option>
+                                <option value="sledochki">Следочки с вышивкой</option>
+                                <option value="odnoton">Однотонные с узором</option>
+                                <option value="cvetnye">Цветные с орнаментом</option>
+                            </select>
+                        </div>
+                        <div class="form__item">
+                            <select name="granny" id="granny">
+                                <option value="null">Выбрать бабушку:</option>
+                                <option value="lidia">Лидия Антоновна</option>
+                                <option value="natalia">Наталья Васильевна</option>
+                                <option value="galina">Галина Владимировна</option>
+                            </select>
+                        </div>
+                        <div class="form__item">
+                            <textarea name="description" id="description" rows="1" placeholder="Описание:"></textarea>
+                        </div>
+                        <div class="form__item_submit">
+                            <input type="submit" value="Отправить">
+                        </div>
+                    </form>
+                </div>
+            </header>
+            <div class="header-info">
+                <div class="header-info__block block1">
+                    <h3>СДЕЛАТЬ <br> ПРИЯТНОЕ СЕБЕ</h3>
+                    <p>Носки не просто стильные, они отличаются своим высоким качеством и связаны вручную из специальной
+                        носочной пряжи. Каждая пара уникальна</p>
+                </div>
+                <div class="header-info__block block2">
+                    <h3>ПОДДЕРЖАТЬ <br> ПЕНСИОНЕРОВ</h3>
+                    <p>Носки связаны белорусским умелицами пенсионного возраста, которые, занимаясь своим любимым делом,
+                        могут подзаработать что-то к своей пенсии</p>
+                </div>
+                <div class="header-info__block block3">
+                    <h3>ПОДАРИТЬ <br> ТЕПЛО ДРУГИМ</h3>
+                    <p>С каждой проданной парой носков доставляем еще одну пару носков-следков в один из домов
+                        престарелых живущим там одиноким бабушкам и дедушкам</p>
+                </div>
+
+            </div>
+        </div>
+        <main class="main">
+            <div class="main-socks">
+                <h2>Наши носки</h2>
+                <div class="main-socks-img">
+                    <img class="main-socks-img__block" src="img/socks-01.jpg" alt="socks">
+                    <img class="main-socks-img__block" src="img/socks-02.jpg" alt="socks">
+                    <img class="main-socks-img__block" src="img/socks-03.jpg" alt="socks">
+                </div>
+            </div>
+            <div class="main-socks-info">
+                <div class="main-socks-info__block">
+                    <h3>Сделано <br> хорошо</h3>
+                    <p>Носочки от бабушки— это тёплые носки, связанные вручную из специальной<span
+                            data-tooltip="Состав: 75% шерсть, 25% полиамид Марка: Superwash 100 Alize "> носочной
+                            пряжи</span>. Эти носки для тех, кто может остановиться и оценить качество, традиции и тепло
+                        бабушкиных рук в повседневной суетной жизни.</p>
+                </div>
+                <div class="main-socks-info__block">
+                    <h3>Социально.<br> Ответственно</h3>
+                    <p>Для наших бабушек вязание — больше, чем работа. Каждая пара связана не просто хорошо, но и с
+                        душой. Ведь для них — это поддержание <span
+                            data-tooltip="Каждая связанная пара носков снижает артериальное давление на два миллиметрa ртутного столба">активного
+                        </span>образа жизни, саморазвитие и возможность быть полезными другим. </p>
+                </div>
+                <div class="main-socks-info__block">
+                    <h3>Оригинальный <br> подарок</h3>
+                    <p>Тёплые и душевные носки могут порадовать не только ваши ноги, но и ноги ваших друзей, близких
+                        и коллег. Мы также сотрудничаем с <span
+                            data-tooltip="Уже несколько лет мы работаем с лучшими предпринимателями">компаниями</span>,
+                        которые ищут необычные подарки для своих клиентов и партнеров</p>
+                </div>
+                <div id="podskazka"></div>
+            </div>
+            <div class="main-it-works">
+                <h2>Как это работает</h2>
+                <img src="img/howitworks.png" alt="">
+            </div>
+            <div class="main-granny">
+                <h2>Наши бабушки</h2>
+                <div class="main-granny-img">
+                    <figure class="main-granny-img__block">
+                        <img src="img/grany-lidia.jpg" alt="grany-lidia">
+                        <figcaption>Лидия Антоновна, пенсионерка, учитель математики</figcaption>
+                    </figure>
+                    <figure class="main-granny-img__block">
+                        <img src="img/grany-natalya.jpg" alt="grany-natalya">
+                        <figcaption>Наталья Васильевна, пенсионерка, экономист</figcaption>
+                    </figure>
+                    <figure class="main-granny-img__block">
+                        <img src="img/granny-galina.jpg" alt="granny-galina">
+                        <figcaption>Галина Владимировна, пенсионерка, главный бухгалтер</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="main-media">
+                <h2>О нас пишут</h2>
+                <div class="main-media__block">
+                    <a
+                        href="https://odb-office.eu/expertise_/social-entrepreneurship/biz4all-social-enterprise-%E2%80%9Csocks-grandma%E2%80%9D-warm-emotions">
+                        <img src="img/media-odb.png" alt="odb-office.eu">
+                    </a>
+                    <a href="https://news.tut.by/culture/516907.html">
+                        <img src="img/media-tut.png" alt="news.tut.by">
+                    </a>
+                    <a href="http://zviazda.by/be/news/20161123/1479923369-shkarpetki-ad-babuli">
+                        <img src="img/media-star.png" alt="zviazda.by">
+                    </a>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-copyright">
+                <p>&copy; 2020 Носочки от бабушки</p>
+                <p>Минск, Беларусь</p>
+            </div>
+            <p>E-mail: skarpetki.by@gmail.com</p>
+            <div class="footer-media">
+                <a href="#" class="footer-media__link"><img src="img/fb.png" alt="fb"></a>
+                <a href="#" class="footer-media__link"><img src="img/vk.png" alt="vk"></a>
+                <a href="#" class="footer-media__link"><img src="img/ins.png" alt="ins"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

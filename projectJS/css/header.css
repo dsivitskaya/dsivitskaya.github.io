@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "PT Serif Caption", serif;
+  font-size: 1em;
+  font-weight: 400;
+  background-color: #fff;
+  color: #000;
+}
+/*.header,
+.header *,
+.header-form,
+.header_info *,
+.header-info__block,
+.header-overlay,
+.main *,
+.footer,
+.footer * {
+  border: 1px solid red;
+}*/
+/*главная страница*/
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1004px;
+  margin: 0 auto;
+}
+.header-overlay {
+  position: relative;
+  /*for header and header-info*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*for header_top*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+}
+.header_top {
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  height: 112px;
+  margin: 20px 32px 0;
+}
+.header-logo {
+  flex: 0 0 112px;
+  z-index: 5;
+}
+.header-logo img {
+  max-width: 100%;
+}
+.header-nav {
+  width: 75%;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+}
+.header-nav__list {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-nav__item {
+  justify-content: space-around;
+  background-color: rgba(189, 186, 177, 0.2);
+  text-align: center;
+}
+.header-nav__link {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px;
+  font-size: 0.85em;
+}
+.header-nav__link:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(189, 186, 177, 0.4);
+  transition: 0.3s;
+}
+.header-aside {
+  width: 15%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-media__link {
+  display: inline-block;
+  /*flex: 0 0 30px;*/
+}
+/*.header-media__link img {
+  max-width: 100%;
+}*/
+.header-media__link:hover {
+  background-color: rgba(111, 111, 111, .3);
+  transition: 0.5s;
+}
+/*переключаем языки*/
+.lang-switcher__link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 0.85em;
+}
+.lang-switcher__link:hover {
+  color: #ff0000;
+  transition: 0.2s;
+}
+/*форма заказа */
+.header-form {
+  position: absolute;
+  left: 150px;
+  top: 177px;
+  width: 220px;
+  border-radius: 5px;
+  background-color: rgba(189, 186, 177, 0.5);
+}
+.header-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+select,
+input,
+textarea {
+  display: block;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  width: 155px;
+  padding: 10px;
+  margin: 6px 0;
+  font-family: "PT Serif Caption", serif;
+  font-size: 0.75em;
+}
+.form__item:hover {
+  opacity: 0.9;
+}
+.form__item_submit:hover {
+  opacity: 0.7;
+}
+/*Вендорные префиксы*/ /*Chrome, Firefox, IE*/
+::-webkit-input-placeholder {
+  color: black;
+}
+::-moz-placeholder {
+  color: black;
+}
+:-ms-input-placeholder {
+  color: black;
+}
+:focus::-moz-placeholder {
+  color: black;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+:focus::-webkit-input-placeholder {
+  color: black;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+:focus::-ms-input-placeholder {
+  color: black;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+/*текстовый блок после картинки*/
+.header-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  max-width: 60%; /*680/1004=*/
+  margin: -60px auto 0;
+  position: relative;
+}
+.header-info__block {
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  width: 200px; /*фиксируем чтобы не разъезжалось на больших экранах*/
+  margin: 0 10px;
+  border-radius: 5px;
+  background-color: rgba(189, 186, 177, 0.5);
+  position: relative;
+}
+.header-info__block h3 {
+  padding: 10px;
+  font-size: 0.8em;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+.header-info__block p {
+  padding: 10px;
+  font-size: 0.8em;
+  line-height: 1.4;
+  color: black;
+  text-align: center;
+}
