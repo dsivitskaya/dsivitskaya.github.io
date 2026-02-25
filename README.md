@@ -14,8 +14,8 @@ E-mail: di.sivitskaya@gmail.com
 • JavaScript (ES6+)
 
 **Дополнительные**  
-• Figma (базовый уровень)
-• Adobe Photoshop (базовый уровень)  
+• Figma (базовый уровень)  
+• Adobe Photoshop (базовый уровень)
 
 **Другие**  
 • 3ds Max (базовый уровень)
