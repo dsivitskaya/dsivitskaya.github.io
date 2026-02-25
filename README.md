@@ -22,7 +22,7 @@ const aboutMe = {
     english: 'B1/B2 ★★★☆☆',
     polish: 'A1/A2 ★☆☆☆☆'
   },
-  currentProject: 'Прохожу курс по JavaScript на RSSchool',
+  currentProject: 'Прохожу курс JS / Front-end на RSSchool',
   funFact: 'Гуглю даже те вещи, которые знаю, на всякий случай'
 };
 
