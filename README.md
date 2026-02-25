@@ -1,10 +1,6 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Frontend%20Developer&fontSize=50&fontAlignY=35&animation=twinkling" width="100%"/>
-</div>
-
 ```yaml
-name: Твое Имя
-location: Город, Страна
+name: Diana Sivitskay
+location: Minsk, Belarus
 current_focus: Frontend Development
 dreaming_of: Clean code & Cozy interfaces
 
@@ -25,8 +21,8 @@ const aboutMe = {
     english: 'B1/B2 ★★★☆☆',
     polish: 'A1/A2 ★☆☆☆☆'
   },
-  currentProject: 'Создаю свой первый README',
-  funFact: 'Могу свернуть сайт быстрее, чем выбрать фильм на Netflix'
+  currentProject: 'Прохожу курс по JavaScript на RSSchool',
+  funFact: 'Гуглю даже те вещи, которые знаю, на всякий случай'
 };
 
 function sayHi() {
