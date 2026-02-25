@@ -24,3 +24,9 @@ E-mail: di.sivitskaya@gmail.com
 
 • Английский — B1/B2 (Intermediate)  
 • Польский — A1/A2 (Beginner)
+
+  ### 📫 Связь со мной
+  
+  [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](@diana_ds3)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](ссылка)
+  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:di.sivitskaya@gmail.com)
