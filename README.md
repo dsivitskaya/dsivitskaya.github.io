@@ -1,10 +1,31 @@
 
-
 # Диана Сивицкая
 
 Телефон: +375296684931
 
 E-mail: di.sivitskaya@gmail.com
+
+### 📊 Стек технологий
+
+<details open>
+<summary><b>🎯 Основные</b></summary>
+<br>
+  
+![HTML5](https://img.shields.io/badge/HTML5-Эксперт-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-Эксперт-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-Средний-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=black)
+
+</details>
+
+<details>
+<summary><b>🎨 Дизайн-инструменты</b></summary>
+<br>
+  
+![Figma](https://img.shields.io/badge/Figma-Базовый-F24E1E?style=for-the-badge&logo=figma&logoColor=white&labelColor=black)
+![Adobe Photoshop](https://img.shields.io/badge/Photoshop-Базовый-31A8FF?style=for-the-badge&logo=adobe-photoshop&logoColor=white&labelColor=black)
+![3ds Max](https://img.shields.io/badge/3ds%20Max-Базовый-37A5CC?style=for-the-badge&logo=autodesk&logoColor=white&labelColor=black)
+
+</details>
 
 ### 🛠 Технические навыки
 
