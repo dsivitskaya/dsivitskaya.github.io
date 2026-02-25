@@ -1,3 +1,40 @@
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Frontend%20Developer&fontSize=50&fontAlignY=35&animation=twinkling" width="100%"/>
+</div>
+
+```yaml
+name: Твое Имя
+location: Город, Страна
+current_focus: Frontend Development
+dreaming_of: Clean code & Cozy interfaces
+
+const aboutMe = {
+  technologies: {
+    core: {
+      html: '★★★★★',
+      css: '★★★★★',
+      javascript: '★★★☆☆'
+    },
+    design: {
+      figma: '★★☆☆☆',
+      photoshop: '★★☆☆☆',
+      '3ds max': '★★☆☆☆'
+    }
+  },
+  languages: {
+    english: 'B1/B2 ★★★☆☆',
+    polish: 'A1/A2 ★☆☆☆☆'
+  },
+  currentProject: 'Создаю свой первый README',
+  funFact: 'Могу свернуть сайт быстрее, чем выбрать фильм на Netflix'
+};
+
+function sayHi() {
+  console.log('Привет! Спасибо, что заглянули! 👋');
+}
+
+sayHi();
+
 
 # Диана Сивицкая
 
