@@ -40,7 +40,7 @@ const aboutMe = {
   },
   rental: {
     name: 'Сервис проката',
-    type: 'Сайт',
+    type: 'Website',
     features: 'каталог с фильтрацией и формой заказа'
   }
 },
