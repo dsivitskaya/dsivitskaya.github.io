@@ -23,9 +23,9 @@ const aboutMe = {
     polish: 'A1/A2 ★☆☆☆☆'
   },
   education: {
-    bntu: 'Магистратура (Инженерная геометрия и компьютерная графика)',
-    yandex: 'Фронтенд-разработчик (в процессе)',
-    rsschool: 'JS/Front-end (в процессе)'
+    bntu: 'Engineering Geometry and Computer Graphics (MSc)',
+    yandex: 'Frontend Developer (in process)',
+    rsschool: 'JS/Front-end (in process)'
   },
  currentProjects: {
   ebook: {
